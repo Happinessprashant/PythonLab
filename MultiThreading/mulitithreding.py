@@ -25,3 +25,6 @@ for i in thread:
     
     
     
+print(id(thread))
+
+print(thread )
