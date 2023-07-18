@@ -1,0 +1,2 @@
+In Python, buffered I/O is a technique used to improve the performance of reading and writing data by minimizing the number of system calls made to the operating system. By buffering the data in memory before performing I/O operations, the program can reduce the overhead associated with frequent system calls.
+this is a my 2nd line 
