@@ -1,0 +1,13 @@
+
+2023-07-15 07:45:01,373 - INFO - Hello , Prashant
+2023-07-15 07:45:31,589 - INFO - Hello , This is my first Commit
+2023-07-15 07:47:14,671 - ERROR - This is the Error Message
+2023-07-15 07:47:38,110 - CRITICAL - This is the critical msg
+2023-07-15 07:48:05,102 - WARNING - This is warning Message
+2023-07-15 08:12:54,921 - WARNING - This is warning Message
+2023-07-15 08:18:03,127 - INFO - Hii , Prashant
+2023-07-15 08:18:03,127 - ERROR - This is DEBUG Mesage
+2023-07-15 08:20:10,985 - INFO - Hii , Prashant
+2023-07-15 08:20:10,987 - ERROR - This is DEBUG Mesage
+2023-07-15 08:22:28,179 - INFO - Hii , Prashant
+2023-07-15 08:22:28,180 - ERROR - This is DEBUG Mesage

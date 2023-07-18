@@ -1,0 +1,136 @@
+2023-07-15 08:32:08,770 - INFO - Hii , Prashant
+2023-07-15 08:32:08,770 - ERROR - This is DEBUG Mesage
+2023-07-15 09:18:15,192 - INFO -  This is in the for loop
+2023-07-15 09:19:10,481 - INFO -  This is in the for loop
+2023-07-15 09:19:11,159 - INFO -  This is in the for loop
+2023-07-15 09:19:11,160 - INFO -  This is in the for loop
+2023-07-15 09:19:11,161 - INFO -  This is in the for loop
+2023-07-15 09:19:11,162 - INFO -  This is in the for loop
+2023-07-15 09:19:41,803 - INFO -  This is in the for loop
+2023-07-15 09:20:06,923 - INFO -  This is in the for loop
+2023-07-15 09:20:06,923 - INFO - this check the type of the is int 1
+2023-07-15 09:20:06,924 - INFO -  This is in the for loop
+2023-07-15 09:20:06,924 - INFO - this check the type of the is int 2
+2023-07-15 09:20:06,925 - INFO -  This is in the for loop
+2023-07-15 09:20:06,925 - INFO - this check the type of the is int 3
+2023-07-15 09:20:06,925 - INFO -  This is in the for loop
+2023-07-15 09:20:06,925 - INFO - this check the type of the is int 4
+2023-07-15 09:20:06,925 - INFO -  This is in the for loop
+2023-07-15 09:20:43,432 - INFO -  This is in the for loop
+2023-07-15 09:20:43,432 - INFO - this check the type of the is int 1
+2023-07-15 09:20:43,432 - INFO -  This is in the for loop
+2023-07-15 09:20:43,433 - INFO - this check the type of the is int 2
+2023-07-15 09:20:43,433 - INFO -  This is in the for loop
+2023-07-15 09:20:43,433 - INFO - this check the type of the is int 3
+2023-07-15 09:20:43,433 - INFO -  This is in the for loop
+2023-07-15 09:20:43,433 - INFO - this check the type of the is int 4
+2023-07-15 09:20:43,433 - INFO -  This is in the for loop
+2023-07-15 09:21:08,110 - INFO -  This is in the for loop
+2023-07-15 09:21:08,111 - INFO - this check the type of the is int 1
+2023-07-15 09:21:08,111 - INFO -  This is in the for loop
+2023-07-15 09:21:08,112 - INFO - this check the type of the is int 2
+2023-07-15 09:21:08,112 - INFO -  This is in the for loop
+2023-07-15 09:21:08,112 - INFO - this check the type of the is int 3
+2023-07-15 09:21:08,112 - INFO -  This is in the for loop
+2023-07-15 09:21:08,112 - INFO - this check the type of the is int 4
+2023-07-15 09:21:08,112 - INFO -  This is in the for loop
+2023-07-15 09:21:46,346 - INFO -  This is in the for loop
+2023-07-15 09:21:46,347 - INFO - this check the type of the is int 1
+2023-07-15 09:21:46,347 - INFO -  This is in the for loop
+2023-07-15 09:21:46,347 - INFO - this check the type of the is int 2
+2023-07-15 09:21:46,348 - INFO -  This is in the for loop
+2023-07-15 09:21:46,348 - INFO - this check the type of the is int 3
+2023-07-15 09:21:46,348 - INFO -  This is in the for loop
+2023-07-15 09:21:46,348 - INFO - this check the type of the is int 4
+2023-07-15 09:21:46,348 - INFO -  This is in the for loop
+2023-07-15 09:21:46,348 - INFO - This is in the if condition to check type is equal list[2, 3, 4, 'pj']
+2023-07-15 09:21:46,348 - INFO - This is the in the 2nd for loop to assign values to j 2
+2023-07-15 09:22:04,197 - INFO -  This is in the for loop
+2023-07-15 09:22:04,198 - INFO - this check the type of the is int 1
+2023-07-15 09:22:04,198 - INFO -  This is in the for loop
+2023-07-15 09:22:04,198 - INFO - this check the type of the is int 2
+2023-07-15 09:22:04,198 - INFO -  This is in the for loop
+2023-07-15 09:22:04,198 - INFO - this check the type of the is int 3
+2023-07-15 09:22:04,199 - INFO -  This is in the for loop
+2023-07-15 09:22:04,199 - INFO - this check the type of the is int 4
+2023-07-15 09:22:04,199 - INFO -  This is in the for loop
+2023-07-15 09:22:04,199 - INFO - This is in the if condition to check type is equal list[2, 3, 4, 'pj']
+2023-07-15 09:22:04,199 - INFO - This is the in the 2nd for loop to assign values to j 2
+2023-07-15 09:22:04,199 - INFO - this check the type of the 2 is int 
+2023-07-15 09:22:04,199 - INFO - This is the in the 2nd for loop to assign values to j 3
+2023-07-15 09:22:04,199 - INFO - this check the type of the 3 is int 
+2023-07-15 09:22:04,199 - INFO - This is the in the 2nd for loop to assign values to j 4
+2023-07-15 09:22:04,199 - INFO - this check the type of the 4 is int 
+2023-07-15 09:22:04,200 - INFO - This is the in the 2nd for loop to assign values to j pj
+2023-07-15 09:22:04,200 - INFO - this check the type of the pj is str
+2023-07-15 09:22:04,200 - INFO -  This is in the for loop
+2023-07-15 09:22:04,200 - INFO - this check the type of the  is strprashant
+2023-07-15 09:22:04,200 - INFO -  This is in the for loop
+2023-07-15 09:22:04,200 - INFO - this check the type of the  is strjadhav
+2023-07-15 09:22:27,392 - INFO -  This is in the for loop
+2023-07-15 09:22:27,392 - INFO - this check the type of the is int 1
+2023-07-15 09:22:27,393 - INFO -  This is in the for loop
+2023-07-15 09:22:27,393 - INFO - this check the type of the is int 2
+2023-07-15 09:22:27,393 - INFO -  This is in the for loop
+2023-07-15 09:22:27,393 - INFO - this check the type of the is int 3
+2023-07-15 09:22:27,393 - INFO -  This is in the for loop
+2023-07-15 09:22:27,393 - INFO - this check the type of the is int 4
+2023-07-15 09:22:27,393 - INFO -  This is in the for loop
+2023-07-15 09:22:27,393 - INFO - This is in the if condition to check type is equal list[2, 3, 4, 'pj']
+2023-07-15 09:22:27,393 - INFO - This is the in the 2nd for loop to assign values to j 2
+2023-07-15 09:22:27,393 - INFO - this check the type of the 2 is int 
+2023-07-15 09:22:27,393 - INFO - This is the in the 2nd for loop to assign values to j 3
+2023-07-15 09:22:27,393 - INFO - this check the type of the 3 is int 
+2023-07-15 09:22:27,394 - INFO - This is the in the 2nd for loop to assign values to j 4
+2023-07-15 09:22:27,394 - INFO - this check the type of the 4 is int 
+2023-07-15 09:22:27,394 - INFO - This is the in the 2nd for loop to assign values to j pj
+2023-07-15 09:22:27,395 - INFO - this check the type of the pj is str
+2023-07-15 09:22:27,395 - INFO -  This is in the for loop
+2023-07-15 09:22:27,395 - INFO - this check the type of the  is strprashant
+2023-07-15 09:22:27,395 - INFO -  This is in the for loop
+2023-07-15 09:22:27,395 - INFO - this check the type of the  is strjadhav
+2023-07-15 09:22:33,375 - INFO -  This is in the for loop
+2023-07-15 09:22:33,375 - INFO - this check the type of the is int 1
+2023-07-15 09:22:33,375 - INFO -  This is in the for loop
+2023-07-15 09:22:33,376 - INFO - this check the type of the is int 2
+2023-07-15 09:22:33,376 - INFO -  This is in the for loop
+2023-07-15 09:22:33,376 - INFO - this check the type of the is int 3
+2023-07-15 09:22:33,376 - INFO -  This is in the for loop
+2023-07-15 09:22:33,376 - INFO - this check the type of the is int 4
+2023-07-15 09:22:33,377 - INFO -  This is in the for loop
+2023-07-15 09:22:33,377 - INFO - This is in the if condition to check type is equal list[2, 3, 4, 'pj']
+2023-07-15 09:22:33,377 - INFO - This is the in the 2nd for loop to assign values to j 2
+2023-07-15 09:22:33,377 - INFO - this check the type of the 2 is int 
+2023-07-15 09:22:33,377 - INFO - This is the in the 2nd for loop to assign values to j 3
+2023-07-15 09:22:33,377 - INFO - this check the type of the 3 is int 
+2023-07-15 09:22:33,377 - INFO - This is the in the 2nd for loop to assign values to j 4
+2023-07-15 09:22:33,377 - INFO - this check the type of the 4 is int 
+2023-07-15 09:22:33,377 - INFO - This is the in the 2nd for loop to assign values to j pj
+2023-07-15 09:22:33,378 - INFO - this check the type of the pj is str
+2023-07-15 09:22:33,378 - INFO -  This is in the for loop
+2023-07-15 09:22:33,378 - INFO - this check the type of the  is strprashant
+2023-07-15 09:22:33,378 - INFO -  This is in the for loop
+2023-07-15 09:22:33,378 - INFO - this check the type of the  is strjadhav
+2023-07-15 09:23:46,710 - INFO -  This is in the for loop
+2023-07-15 09:23:46,710 - INFO - this check the type of the is int 1
+2023-07-15 09:23:46,710 - INFO -  This is in the for loop
+2023-07-15 09:23:46,710 - INFO - this check the type of the is int 2
+2023-07-15 09:23:46,711 - INFO -  This is in the for loop
+2023-07-15 09:23:46,711 - INFO - this check the type of the is int 3
+2023-07-15 09:23:46,711 - INFO -  This is in the for loop
+2023-07-15 09:23:46,711 - INFO - this check the type of the is int 4
+2023-07-15 09:23:46,711 - INFO -  This is in the for loop
+2023-07-15 09:23:46,711 - INFO - This is in the if condition to check type is equal list[2, 3, 4, 'pj']
+2023-07-15 09:23:46,711 - INFO - This is the in the 2nd for loop to assign values to j 2
+2023-07-15 09:23:46,712 - INFO - this check the type of the 2 is int 
+2023-07-15 09:23:46,712 - INFO - This is the in the 2nd for loop to assign values to j 3
+2023-07-15 09:23:46,712 - INFO - this check the type of the 3 is int 
+2023-07-15 09:23:46,712 - INFO - This is the in the 2nd for loop to assign values to j 4
+2023-07-15 09:23:46,712 - INFO - this check the type of the 4 is int 
+2023-07-15 09:23:46,712 - INFO - This is the in the 2nd for loop to assign values to j pj
+2023-07-15 09:23:46,712 - INFO - this check the type of the pj is str
+2023-07-15 09:23:46,712 - INFO -  This is in the for loop
+2023-07-15 09:23:46,712 - INFO - this check the type of the  is strprashant
+2023-07-15 09:23:46,713 - INFO -  This is in the for loop
+2023-07-15 09:23:46,713 - INFO - this check the type of the  is strjadhav
+2023-07-15 09:23:46,713 - INFO - this print the lists int list is [1, 2, 3, 4, 2, 3, 4] and str list is ['pj', 'prashant', 'jadhav']
