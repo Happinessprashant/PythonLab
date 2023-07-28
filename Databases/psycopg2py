@@ -1,0 +1,75 @@
+# import psycopg2
+
+# # Function to create a connection to PostgreSQL
+# def create_connection():
+#     try:
+#         conn = psycopg2.connect(
+#             database='prashant',
+#             user='',
+#             password='prashant',
+#             host='localhost',
+#             port='2620'
+#         )
+#         print("Connected to PostgreSQL")
+#         return conn
+#     except psycopg2.Error as e:
+#         print("Error: Could not connect to PostgreSQL")
+#         print(e)
+#         return None
+
+# # Function to close the connection
+# def close_connection(conn):
+#     if conn:
+#         conn.close()
+#         print("Connection to PostgreSQL closed")
+
+# # Function to create a table
+# def create_table(conn):
+#     try:
+#         cursor = conn.cursor()
+#         cursor.execute('CREATE TABLE IF NOT EXISTS users (id SERIAL PRIMARY KEY, name TEXT, age INTEGER)')
+#         conn.commit()
+#         print("Table 'users' created")
+#     except psycopg2.Error as e:
+#         print("Error: Could not create table")
+#         print(e)
+
+# # Function to insert data
+# def insert_data(conn, name, age):
+#     try:
+#         cursor = conn.cursor()
+#         cursor.execute('INSERT INTO users (name, age) VALUES (%s, %s)', (name, age))
+#         conn.commit()
+#         print("Data inserted successfully")
+#     except psycopg2.Error as e:
+#         print("Error: Could not insert data")
+#         print(e)
+
+# # Function to retrieve data
+# def retrieve_data(conn):
+#     try:
+#         cursor = conn.cursor()
+#         cursor.execute('SELECT * FROM users')
+#         rows = cursor.fetchall()
+#         print("Retrieved data:")
+#         for row in rows:
+#             print(f"ID: {row[0]}, Name: {row[1]}, Age: {row[2]}")
+#     except psycopg2.Error as e:
+#         print("Error: Could not retrieve data")
+#         print(e)
+
+# # Main function to demonstrate the usage
+# def main():
+#     conn = create_connection()
+#     if not conn:
+#         return
+
+#     create_table(conn)
+#     insert_data(conn, 'John', 30)
+#     insert_data(conn, 'Jane', 25)
+#     retrieve_data(conn)
+
+#     close_connection(conn)
+
+# if __name__ == "__main__":
+#     main()
