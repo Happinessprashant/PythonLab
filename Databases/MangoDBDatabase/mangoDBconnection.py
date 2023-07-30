@@ -14,8 +14,9 @@ if __name__=="__main__":
         print("Database :: >> ",(db))
         # Database Name
         db=client["pwskills"]
-        coll_pwskills =db["my_records"]
+        
         # Data is created
+        coll_pwskills =db["my_records"]
         # data={
         #     "name":"prashant",
         #     "class":"data science master",
