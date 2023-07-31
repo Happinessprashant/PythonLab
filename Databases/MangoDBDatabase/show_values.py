@@ -1,7 +1,7 @@
 
 
 # from MangoDbConnection import client,coll_pwskills,db
-import MangoDbConnection as pj
+import mangoDBconnection as pj
 db=pj.client["pwskills"]
 coll_pwskills =db["my_records"]
 
