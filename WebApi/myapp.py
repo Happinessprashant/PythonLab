@@ -4,15 +4,15 @@ app =Flask(__name__)
 
 @app.route("/")
 def hello_word():
-    return "<h1>Hello, World!</h1>"
+    return "<h1>Hello, HomePage!</h1>"
 
-@app.route("/hello_word1")
+@app.route("/about")
 def hello_word1():
-    return "<h1>Hello, World1!</h1>"
+    return "<h1>Hello, You are in about!</h1>"
 
-@app.route("/hello_word2")
+@app.route("/contact")
 def hello_word2():
-    return "<h1>Hello, World2!</h1>"
+    return "<h1>Hello, You are in Contact!</h1>"
 
 @app.route("/test")
 def test():
