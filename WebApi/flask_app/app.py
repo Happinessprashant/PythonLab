@@ -32,6 +32,7 @@ def math_ops():
             
         else:
             result= (f"{ops} is not arithmetic  operation please check valid operation") 
+            
         return render_template("results.html", result1=result)   
 
 
