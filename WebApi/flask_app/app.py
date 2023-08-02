@@ -18,19 +18,20 @@ def math_ops():
         if ops =="add":
             r=num1+num2
             result= (f" Addition of {num1} and {num2} is {r}")
-        if ops =="substract":
+        elif ops =="substract":
             r=num1-num2
             result= (f"Substration of {num1}  and {num2} is {r}")   
             
-        if ops =="multiply":
+        elif ops =="multiply":
             r=num1*num2
             result= (f"Substration of {num1}  and {num2} is {r}")   
             
-        if ops =="divide":
+        elif ops =="divide":
             r=num1/num2
             result= (f"division of {num1}  and {num2} is {r}")   
             
-            
+        else:
+            result= (f"{ops} is not arithmetic  operation please check valid operation") 
         return render_template("results.html", result1=result)   
 
 
