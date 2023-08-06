@@ -72,7 +72,7 @@ def index():
             collection = db['imges_data']
             collection.insert_many(img_data) 
             
-            return "images are Loaded....!! ,\n 🙏Please Wait few Minutes"   
+            return f"images are Loaded....!! \n 🙏Please Wait few Minutes"   
                 
         except Exception as e:
             logging.error(e)
