@@ -1,4 +1,8 @@
-scrapper.log
+# scrapper.log
 
 
 *.csv
+
+images
+
+*.log
