@@ -29,3 +29,31 @@ INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 13:12:13] "[36mGET /static/css/style.c
 INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 13:12:37] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 13:12:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 13:12:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.88:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.88:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:21:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:21:02] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:21:02] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:26:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:26:18] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:26:18] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:log my final result []
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:26:27] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:26:27] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:26:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redminote10', 'Name': 'SALONI BEHERA', 'Rating': '4', 'CommentHead': 'Simply awesome', 'Comment': 'Nyc product picture Quality good....'}, {'Product': 'redminote10', 'Name': 'Sagar Baishya', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Best low budget phone'}, {'Product': 'redminote10', 'Name': 'Vikash  Sharma', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Good camera \U0001f4f8\U0001f642'}, {'Product': 'redminote10', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Very nice camra'}, {'Product': 'redminote10', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Very nice camera'}, {'Product': 'redminote10', 'Name': 'Shubhankar  Mandal', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Super nice video'}, {'Product': 'redminote10', 'Name': 'Dhritiman BAISHYA ', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Best phone under 15k..bgmi smooth+extreme graphics \U0001f929\U0001f929'}, {'Product': 'redminote10', 'Name': 'Kabir Verma', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Awesome phone and camera'}, {'Product': 'redminote10', 'Name': 'Suman Suman', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Overall good'}, {'Product': 'redminote10', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': "White colour is most attractive... it's camera quality is best...good  processor.."}, {'Product': 'redminote10', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': "White colour is most attractive... it's camera quality is best...good  processor.."}]
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:26:39] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:26:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2023 08:26:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
