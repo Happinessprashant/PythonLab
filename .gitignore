@@ -1,6 +1,7 @@
 # scrapper.log
 *.csv
 
+images/
 images
 
 *.log
