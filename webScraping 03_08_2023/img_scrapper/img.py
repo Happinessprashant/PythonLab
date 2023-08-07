@@ -6,7 +6,7 @@ from urllib.request import urlopen as uReq
 import logging
 import pymongo
 #create a logging file
-logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
+logging.basicConfig(filename="img_scrapper.log" , level=logging.INFO)
 import os
 app = Flask(__name__)
 
