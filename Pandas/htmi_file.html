@@ -1,0 +1,606 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>location_id</th>
+      <th>program_id</th>
+      <th>accepted_payments</th>
+      <th>alternate_name</th>
+      <th>application_process</th>
+      <th>audience</th>
+      <th>description</th>
+      <th>eligibility</th>
+      <th>email</th>
+      <th>fees</th>
+      <th>funding_sources</th>
+      <th>interpretation_services</th>
+      <th>keywords</th>
+      <th>languages</th>
+      <th>name</th>
+      <th>required_documents</th>
+      <th>service_areas</th>
+      <th>status</th>
+      <th>wait_time</th>
+      <th>website</th>
+      <th>taxonomy_ids</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in or apply by phone.</td>
+      <td>Older adults age 55 or over, ethnic minorities and low-income persons</td>
+      <td>A walk-in center for older adults that provides social services, wellness, recreational, educational and creative activities including arts and crafts, computer classes and gardening classes.</td>
+      <td>Age 55 or over for most programs, age 60 or over for lunch program</td>
+      <td>NaN</td>
+      <td>$2.50 suggested donation for lunch for age 60 or over, donations for other services appreciated. Cash and checks accepted.</td>
+      <td>City, County, Donations, Fees, Fundraising</td>
+      <td>NaN</td>
+      <td>ADULT PROTECTION AND CARE SERVICES, Meal Sites/Home-delivered Mea, COMMUNITY SERVICES, Group Support, Information and Referral, EDUCATION SERVICES, English Language, RECREATION/LEISURE SERVICES, Arts and Crafts, Sports/Games/Exercise, Brown Bag Food Programs, Congregate Meals/Nutrition Sites, Senior Centers, Older Adults</td>
+      <td>NaN</td>
+      <td>Fair Oaks Adult Activity Center</td>
+      <td>NaN</td>
+      <td>Colma</td>
+      <td>active</td>
+      <td>No wait.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Apply by phone for an appointment.</td>
+      <td>Residents of San Mateo County age 55 or over</td>
+      <td>Provides training and job placement to eligible people age 55 or over who meet certain income qualifications.</td>
+      <td>Age 55 or over, county resident and willing and able to work. Income requirements vary according to program</td>
+      <td>NaN</td>
+      <td>None. Donations requested of clients who can afford it.</td>
+      <td>County, Federal, State</td>
+      <td>NaN</td>
+      <td>EMPLOYMENT/TRAINING SERVICES, Job Development, Job Information/Placement/Referral, Job Training, Job Training Formats, Job Search/Placement, Older Adults</td>
+      <td>NaN</td>
+      <td>Second Career Employment Program</td>
+      <td>NaN</td>
+      <td>San Mateo County</td>
+      <td>active</td>
+      <td>Varies.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Phone for information (403-4300 Ext. 4322).</td>
+      <td>Older adults age 55 or over who can benefit from counseling</td>
+      <td>Offers supportive counseling services to San Mateo County residents age 55 or over.</td>
+      <td>Resident of San Mateo County age 55 or over</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>County, Donations, Grants</td>
+      <td>NaN</td>
+      <td>Geriatric Counseling, Older Adults, Gay, Lesbian, Bisexual, Transgender Individuals, Mentoring Programs</td>
+      <td>NaN</td>
+      <td>Senior Peer Counseling</td>
+      <td>NaN</td>
+      <td>San Mateo County</td>
+      <td>active</td>
+      <td>Varies.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>4</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Apply by phone.</td>
+      <td>Parents, children, families with problems of custody disputes, domestic violence or substance abuse, families going through a separation or divorce</td>
+      <td>Provides supervised visitation services and a neutral site for parents to carry out supervised exchanges of children in a safe manner. Provides counseling for child abuse prevention and domestic violence.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Vary according to income ($5-$90). Cash, checks and credit cards accepted.</td>
+      <td>County, Donations, Grants</td>
+      <td>NaN</td>
+      <td>INDIVIDUAL AND FAMILY DEVELOPMENT SERVICES, Growth and Adjustment, LEGAL AND CRIMINAL JUSTICE SERVICES, Mediation, Parental Visitation Monitoring, Divorce Counseling, Youth, Abuse Prevention, Child Abuse, Domestic Violence</td>
+      <td>NaN</td>
+      <td>Family Visitation Center</td>
+      <td>NaN</td>
+      <td>San Mateo County</td>
+      <td>active</td>
+      <td>No wait.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>5</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Phone for information.</td>
+      <td>Low-income working families with children transitioning from welfare to work and poor or who do not have access to conventional credit</td>
+      <td>Provides fixed 8% short term loans to eligible applicants for the purchase of a reliable, used autmobile. Loans are up to $6,000 over 2 1/2 years (30 months). Funds must go towards the entire purchase of the automobile. Peninsula Family Service originates loans and collaborates with commercial partner banks to service the loans, helping clients build credit histories. Formerly known as Family Service Agency of San Mateo County, Ways to Work Family Loan Program.</td>
+      <td>Eligibility: Low-income family with legal custody of a minor child or an involved parent of a dependent minor child. Must reside and/or work in San Mateo County. Must be working and have verifiable income and ability to pay off loan. No bankruptcies in the past two years and unable to qualify for other funding sources. Loans approved by loan committee.</td>
+      <td>NaN</td>
+      <td>$60 application fee. Cash or checks accepted.</td>
+      <td>County, Grants, State</td>
+      <td>NaN</td>
+      <td>COMMUNITY SERVICES, Speakers, Automobile Loans</td>
+      <td>NaN</td>
+      <td>Economic Self-Sufficiency Program</td>
+      <td>NaN</td>
+      <td>San Mateo County</td>
+      <td>active</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>6</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in or apply by phone for membership application.</td>
+      <td>Any age</td>
+      <td>A multipurpose center offering a wide variety of recreational, education and cultural activities.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>$55 per year membership dues. Classes have fees. Discounts are available for members. Cash, checks and credit cards accepted.</td>
+      <td>Fees, Fundraising, Grants, Dues</td>
+      <td>NaN</td>
+      <td>ADULT PROTECTION AND CARE SERVICES, In-Home Supportive, Meal Sites/Home-delivered Meals, COMMUNITY SERVICES, Group Support, Information and Referral, EDUCATION SERVICES, Adult, HEALTH SERVICES, Education/Information, Family Support, Individual/Group Counseling, Screening/Immunization, RECREATION/LEISURE SERVICES, Sports/Games/Exercise, Community Adult Schools, Senior Centers, Older Adults</td>
+      <td>NaN</td>
+      <td>Little House Recreational Activities</td>
+      <td>NaN</td>
+      <td>San Mateo County</td>
+      <td>active</td>
+      <td>No wait.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>7</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Apply by phone or be referred by a doctor, social worker or other professional. All prospective participants are interviewed individually before starting the program. A recent physical examination is required, including a TB test.</td>
+      <td>Older adults who have memory or sensory loss, mobility limitations and may be lonely and in need of socialization</td>
+      <td>Rosener House is a day center for older adults who may be unable to live independently but do not require 24-hour nursing care, may be isolated and in need of a planned activity program, may need assistance with activities of daily living or are living in a family situation where the caregiver needs respite from giving full-time care. Assists elderly persons to continue to live with family or alone rather than moving to a skilled nursing facility. Activities are scheduled Monday-Friday, 10 am-2:30 pm, and participants may come two to five days per week. The facility is open from 8 am to 5:30 pm for participants who need to remain all day. Small group late afternoon activities are held from 3-5:30 pm. The program provides a noon meal including special diets as required. Services offered include social and therapeutic recreational activities, individual and family counseling and occupational, physical and speech therapy. A registered nurse is available daily.</td>
+      <td>Age 18 or over</td>
+      <td>NaN</td>
+      <td>$85 per day. Vary according to income for those unable to pay full fee. Cash, checks, credit cards, private insurance and vouchers accepted.</td>
+      <td>Donations, Fees, Grants</td>
+      <td>NaN</td>
+      <td>ADULT PROTECTION AND CARE SERVICES, Adult Day Health Care, Dementia Management, Adult Day Programs, Older Adults</td>
+      <td>NaN</td>
+      <td>Rosener House Adult Day Services</td>
+      <td>NaN</td>
+      <td>Belmont, Burlingame, East Palo Alto</td>
+      <td>active</td>
+      <td>No wait.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>8</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Apply by phone.</td>
+      <td>Senior citizens age 60 or over, disabled individuals age 18-59</td>
+      <td>Delivers a hot meal to the home of persons age 60 or over who are primarily homebound and unable to prepare their own meals, and have no one to prepare meals. Also, delivers a hot meal to the home of disabled individuals ages 18-59. Meals are delivered between 9 am-1:30 pm, Monday-Friday. Special diets are accommodated: low fat, low sodium, and low sugar.</td>
+      <td>Homebound person unable to cook or shop</td>
+      <td>NaN</td>
+      <td>Suggested donation of $4.25 per meal for seniors 60 or over. Mandatory charge of $2 per meal for disabled individuals ages 18-59.</td>
+      <td>County, Donations</td>
+      <td>NaN</td>
+      <td>ADULT PROTECTION AND CARE SERVICES, Meal Sites/Home-delivered Mea, HEALTH SERVICES, Nutrition, Home Delivered Meals, Older Adults, Disabilities Issues</td>
+      <td>NaN</td>
+      <td>Meals on Wheels - South County</td>
+      <td>NaN</td>
+      <td>Belmont, East Palo Alto</td>
+      <td>active</td>
+      <td>No wait.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>9</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in. Proof of residency in California required to receive a library card.</td>
+      <td>Ethnic minorities, especially Spanish speaking</td>
+      <td>Provides general reading material, including bilingual, multi-cultural books, CDs and cassettes, bilingual and Spanish language reference services. School, class and other group visits may be arranged by appointment. The library is a member of the Peninsula Library System.</td>
+      <td>Resident of California to obtain a library card</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>City, County</td>
+      <td>NaN</td>
+      <td>EDUCATION SERVICES, Library, Libraries, Public Libraries</td>
+      <td>NaN</td>
+      <td>Fair Oaks Branch</td>
+      <td>NaN</td>
+      <td>San Mateo County</td>
+      <td>active</td>
+      <td>No wait.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>10</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in. Proof of California residency to receive a library card.</td>
+      <td>NaN</td>
+      <td>Provides general reading and media materials, literacy and homework assistance, and programs for all ages. Provides public computers, wireless connectivity, a children's room, teen center, and a local history collection.</td>
+      <td>Resident of California to obtain a card</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>City</td>
+      <td>NaN</td>
+      <td>EDUCATION SERVICES, Library, Libraries, Public Libraries</td>
+      <td>NaN</td>
+      <td>Main Library</td>
+      <td>NaN</td>
+      <td>San Mateo County</td>
+      <td>active</td>
+      <td>No wait.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>11</td>
+      <td>11</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in. Proof of California residency required to receive a library card.</td>
+      <td>NaN</td>
+      <td>Provides general reading materials, including large-type books, DVD's and CDs, books on CD and some Spanish language materials to children. Offers children's programs and a Summer Reading Club. Participates in the Peninsula Library System.</td>
+      <td>Resident of California to obtain a library card for borrowing materials</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>City</td>
+      <td>NaN</td>
+      <td>EDUCATION SERVICES, Library, Libraries, Public Libraries</td>
+      <td>NaN</td>
+      <td>Schaberg Branch</td>
+      <td>NaN</td>
+      <td>San Mateo County</td>
+      <td>active</td>
+      <td>No wait.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>12</td>
+      <td>12</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in or apply by phone, email or webpage registration.</td>
+      <td>Adults, parents, children in 1st-12th grades in the Redwood City school districta</td>
+      <td>Offers an intergenerational literacy program for youth and English-speaking adults seeking to improver literacy skills. Adult services include: adult one-to-one tutoring to improve basic skills in reading, writing and critical thinking; Families for Literacy (FFL), a home-based family literacy program for parents who want to be able to read to their young children; and small group/English as a Second Language (ESL). Youth services include: Youth Tutoring, Families in Partnership (FIP); Teen-to-Elementary Student Tutoring, Kids in Partnership (KIP); and computer-aided literacy. Redwood City Friends of Literacy is a fundraising board that helps to support and to fund Redwood City's Project Read. Call for more information about each service.</td>
+      <td>English-speaking adult reading at or below 7th grade level or child in 1st-12th grade in the Redwood City school districts</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>City, Donations, Federal, Grants, State</td>
+      <td>NaN</td>
+      <td>EDUCATION SERVICES, Adult, Alternative, Literacy, Literacy Programs, Libraries, Public Libraries, Youth</td>
+      <td>NaN</td>
+      <td>Project Read</td>
+      <td>NaN</td>
+      <td>Daly City</td>
+      <td>active</td>
+      <td>Depends on availability of tutors for small groups and one-on-one.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>13</td>
+      <td>13</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in. Proof of California residency required to receive a library card.</td>
+      <td>NaN</td>
+      <td>Provides general reading materials, including large-type books, videos, music cassettes and CDs, and books on tape. Offers children's programs and a Summer Reading Club. Meeting room is available to nonprofit groups. Participates in the Peninsula Library System.</td>
+      <td>Resident of California to obtain a library card</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>City</td>
+      <td>NaN</td>
+      <td>EDUCATION SERVICES, Library, Libraries, Public Libraries</td>
+      <td>NaN</td>
+      <td>Redwood Shores Branch</td>
+      <td>NaN</td>
+      <td>San Mateo County</td>
+      <td>active</td>
+      <td>No wait.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>14</td>
+      <td>14</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Call for appointment. Referral from human service professional preferred for emergency assistance.</td>
+      <td>Individuals or families with low or no income and/or trying to obtain public assistance</td>
+      <td>Provides food, clothing, bus tokens and shelter to individuals and families in times of crisis from the Redwood City Corps office and community centers throughout the county.</td>
+      <td>None for most services. For emergency assistance, must have low or no income and be willing to apply for public assistance</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>Donations, Grants</td>
+      <td>NaN</td>
+      <td>COMMUNITY SERVICES, Interpretation/Translation, EMERGENCY SERVICES, Shelter/Refuge, FINANCIAL ASSISTANCE SERVICES, Utilities, MENTAL HEALTH SERVICES, Individual/Group Counseling, Food Pantries, Homeless Shelter, Rental Deposit Assistance, Utility Service Payment Assistance</td>
+      <td>NaN</td>
+      <td>Redwood City Corps</td>
+      <td>NaN</td>
+      <td>Belmont, Burlingame, East Palo Alto</td>
+      <td>active</td>
+      <td>Up to 20 minutes.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>15</td>
+      <td>15</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in or through other agency referral.</td>
+      <td>Adult alcoholic/drug addictive men and women with social and spiritual problems</td>
+      <td>Provides a long-term (6-12 month) residential rehabilitation program for men and women with substance abuse and other problems. Residents receive individual counseling, and drug and alcohol education. The spiritual side of recovery is addressed through chapel services and Bible study as well as 12-step programs. Nicotine cessation is a part of the program. Residents must be physically able to work, seeking treatment for substance abuse, sober long enough to pass urine drug screen before entering and agreeable to participating in weekly 12-step programs such as Alcoholics Anonymous or Narcotics Anonymous. Pinehurst Lodge is a separate facility for women only. Transition houses for men and women graduates also available.</td>
+      <td>Age 21-60, detoxed, physically able and willing to participate in a work therapy program</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>Donations, Sales</td>
+      <td>NaN</td>
+      <td>ALCOHOLISM SERVICES, Residential Care, DRUG ABUSE SERVICES, Psychiatric Emergency</td>
+      <td>NaN</td>
+      <td>Adult Rehabilitation Center</td>
+      <td>NaN</td>
+      <td>Alameda County, San Mateo County</td>
+      <td>active</td>
+      <td>Varies according to available beds for men and women. Women have a longer wait due to small number of beds statewide.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>16</td>
+      <td>16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in. Written application, identification required for emergency assistance.</td>
+      <td>NaN</td>
+      <td>Provides emergency assistance including food and clothing for persons in immediate need. Provides PG&amp;E assistance through REACH program. Youth programs offer tutoring, music and troops. Information on related resources is available. Also provides rental assistance when funds are available.</td>
+      <td>None for emergency assistance</td>
+      <td>NaN</td>
+      <td>None for emergency services. Vary for after school activities. Cash and checks accepted.</td>
+      <td>Donations, Fees, Grants</td>
+      <td>NaN</td>
+      <td>COMMODITY SERVICES, Clothing/Personal Items, CHILD PROTECTION AND CARE SERVICES, Day Care, COMMUNITY SERVICES, Information and Referral, EMERGENCY SERVICES, Food Boxes/Food Vouchers, FINANCIAL ASSISTANCE SERVICES, Utilities, RECREATION/LEISURE SERVICES, Camping, Emergency Food, Clothing, Utility Assistance, Youth Development</td>
+      <td>NaN</td>
+      <td>Sunnyvale Corps</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>active</td>
+      <td>No wait.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>17</td>
+      <td>17</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Call for information.</td>
+      <td>NaN</td>
+      <td>Provides emergency food, clothing and furniture vouchers to low-income families in times of crisis. Administers Project REACH (Relief for Energy Assistance through Community Help) funds to prevent energy shut-off through a one-time payment. Offers a Saturday morning Homeless Feeding Program at 10:30, as well as Sunday services and spiritual counseling. Provides Christmas toys and Back-to-School clothes and supplies. Offers case management, advocacy and referrals to other agencies.</td>
+      <td>Low-income families</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>Donations</td>
+      <td>NaN</td>
+      <td>COMMODITY SERVICES, Clothing/Personal Items, COMMUNITY SERVICES, Information and Referral, EMERGENCY SERVICES, Food Boxes/Food Vouchers, FINANCIAL ASSISTANCE SERVICES, Utilities, Emergency Food, Food Pantries, Furniture, Clothing, Utility Assistance, School Supplies, Case/Care Management, Holiday Programs, Pastoral Counseling, Low Income</td>
+      <td>NaN</td>
+      <td>South San Francisco Citadel Corps</td>
+      <td>NaN</td>
+      <td>Colma, Daly City, South San Francisco</td>
+      <td>active</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>18</td>
+      <td>18</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Call for screening appointment. Medical visits are by appointment only.</td>
+      <td>NaN</td>
+      <td>By appointment only, Project Smile provides a free dental exam, dental cleaning and oral hygiene instruction for children, age 3-12, of Samaritan House clients.</td>
+      <td>Low-income person without access to health care</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>Donations, Grants</td>
+      <td>NaN</td>
+      <td>HEALTH SERVICES, Outpatient Care, Community Clinics</td>
+      <td>NaN</td>
+      <td>Project Smile</td>
+      <td>NaN</td>
+      <td>East Palo Alto</td>
+      <td>active</td>
+      <td>Varies.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>19</td>
+      <td>19</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Call for screening appointment (650-347-3648).</td>
+      <td>NaN</td>
+      <td>Provides free medical and dental care to those in need. Offers basic medical care for adults. Assists people with problems or questions relating to Medi-Cal, Healthy Families, Healthy Kids, and Medicare.</td>
+      <td>Low-income person without access to health care</td>
+      <td>NaN</td>
+      <td>None.</td>
+      <td>Donations, Grants</td>
+      <td>NaN</td>
+      <td>HEALTH SERVICES, Outpatient Care, Community Clinics, Medicare</td>
+      <td>NaN</td>
+      <td>San Mateo Free Medical Clinic</td>
+      <td>NaN</td>
+      <td>Belmont, Burlingame</td>
+      <td>active</td>
+      <td>Varies.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>20</td>
+      <td>20</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in.</td>
+      <td>NaN</td>
+      <td>no unrequired fields for this service</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Service with blank fields</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>defunct</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>21</td>
+      <td>21</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>By phone during business hours.</td>
+      <td>NaN</td>
+      <td>just a test service</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Service for Admin Test Location</td>
+      <td>NaN</td>
+      <td>San Mateo County</td>
+      <td>inactive</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>22</td>
+      <td>22</td>
+      <td>NaN</td>
+      <td>Cash, Check, Credit Card</td>
+      <td>Fotos para pasaportes</td>
+      <td>Walk in or apply by phone or mail</td>
+      <td>Profit and nonprofit businesses, the public, military facilities, schools and government entities</td>
+      <td>[NOTE THIS IS NOT A REAL SERVICE--THIS IS FOR TESTING PURPOSES OF THIS ALPHA APP] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit metus eu orci lobortis dictum. In hac habitasse platea dictumst. Vivamus vulputate, neque ut sodales gravida, lorem nunc pharetra ligula, ac cursus sem justo a sapien. Duis vitae vestibulum magna. Sed vel augue in justo rhoncus viverra. Nam ac felis a purus lobortis porttitor sit amet quis est. Suspendisse vulputate nisl quis nisi fermentum aliquet euismod at augue. Sed ultricies, purus dapibus tristique dictum, tortor mauris porttitor nulla, at porta nisl sem sed dolor. Proin ac hendrerit erat. Duis porta iaculis orci, eu euismod quam tristique in. Phasellus nec purus sit amet sapien volutpat egestas.</td>
+      <td>NaN</td>
+      <td>passports@example.org</td>
+      <td>None, except for permits and photocopying. Cash, checks and credit cards accepted</td>
+      <td>City, County, Federal, State</td>
+      <td>We offer 3-way interpretation services over the phone via Propio Language Services (http://propio-ls.com).</td>
+      <td>Salud, Medicina</td>
+      <td>Spanish</td>
+      <td>Passport Photos</td>
+      <td>Government-issued picture identification</td>
+      <td>Alameda County, San Mateo County</td>
+      <td>active</td>
+      <td>No wait to 2 weeks.</td>
+      <td>http://www.example.com</td>
+      <td>105, 108, 108-05, 108-05-01, 111, 111-05</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>23</td>
+      <td>22</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Walk in or apply by phone or mail</td>
+      <td>Second service and nonprofit businesses, the public, military facilities, schools and government entities</td>
+      <td>[NOTE THIS IS NOT A REAL ORGANIZATION--THIS IS FOR TESTTING PURPOSES OF THIS ALPHA APP] Offers, by appointment, WIC (Women, Infants and Children) services, insurance enrollment, food stamps, CalWorks assistance, tax preparation and notary services. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit metus eu orci lobortis dictum. In hac habitasse platea dictumst. Vivamus vulputate, neque ut sodales gravida, lorem nunc pharetra ligula, ac cursus sem justo a sapien. Duis vitae vestibulum magna. Sed vel augue in justo rhoncus viverra. Nam ac felis a purus lobortis porttitor sit amet quis est. Suspendisse vulputate nisl quis nisi fermentum aliquet euismod at augue. Sed ultricies, purus dapibus tristique dictum, tortor mauris porttitor nulla, at porta nisl sem sed dolor. Proin ac hendrerit erat. Duis porta iaculis orci, eu euismod quam tristique in. Phasellus nec purus sit amet sapien volutpat egestas.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>None, except for permits and photocopying. Cash, checks and credit cards accepted</td>
+      <td>City, County, Federal, State</td>
+      <td>NaN</td>
+      <td>Ruby on Rails/Postgres/Redis, testing, wic</td>
+      <td>NaN</td>
+      <td>Example Service Name</td>
+      <td>NaN</td>
+      <td>San Mateo County, Alameda County</td>
+      <td>active</td>
+      <td>No wait to 2 weeks</td>
+      <td>http://www.example.com</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
