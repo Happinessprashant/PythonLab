@@ -1,7 +1,6 @@
 import pandas as pd
 
 
-pf1 = pd.read_excel('abc.xlsx')
+df = pd.read_csv("https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv")
+print(df)
 
-print(pf1)
-print(pf1.columns)
