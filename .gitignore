@@ -4,5 +4,5 @@ images/
 images
 *.log
 images
-
+.vscode
 Pandas\chat_2023_08_13_07_48_01.md
