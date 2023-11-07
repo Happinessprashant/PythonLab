@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen as uReq
 import logging
 import pymongo
+
 #create a logging file
 logging.basicConfig(filename="img_scrapper.log" , level=logging.INFO)
 import os
